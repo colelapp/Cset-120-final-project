@@ -46,7 +46,22 @@ label {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.contact a {
+    text-decoration: none;
+    color: black;
+}
 
+.contact h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.contact button {
+    display: block;
+    margin: 20px auto;
+    width: 350px;
+
+}
 
 textarea {
     height: 300px;
@@ -89,4 +104,81 @@ body {
 
 .t1 {
     margin-bottom: 25px;
+}
+
+.menu h2 {
+    color: yellow;
+    font-size: 50px;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header.menu {
+    background-color: orangered;
+}
+
+.mainmenu {
+    width: 80%;
+    background-color: orange;
+    margin: 0 auto;
+}
+
+.mainmenu button:nth-child(1) {
+    background-color: rgb(23, 204, 23);
+}
+
+.mainmenu button:nth-child(2) {
+    background-color: rgb(207, 28, 28);
+}
+
+.mainmenu h3 {
+    font-size: 45px;
+}
+
+.menuItems img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center bottom;
+    border-radius: 10px 10px 0 0;
+}
+
+.menuItems button {
+    background-color: orange;
+    margin: 10px auto;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+}
+
+.pizzaItems div {
+    background-color: white;
+    display: inline-block;
+    margin: 30px;
+    border: black 3px solid;
+    border-radius: 15px;
+}
+
+.pizzaItems p {
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.drinkItems div {
+    background-color: white;
+    display: inline-block;
+    margin: 30px;
+    border: black 3px solid;
+    border-radius: 15px;
+}
+
+.drinkItems p {
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+h3 {
+    margin-left: 30px;
 }
